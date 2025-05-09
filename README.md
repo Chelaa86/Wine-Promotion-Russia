@@ -27,7 +27,25 @@ MS Excel
     - replaced the remaining blanks with mean wine consumption per year.  
 
 ## Exploratory Data Analysis(EDA)
+**1. Trend analysis for Saint Petersburg**.
+- Purpose: Since the wine promotion was successful in **Saint Petersburg**, it was essential to understand its wine consumption behavior over time.
+- Action: A line plot was created showing per capita wine consumption in **Saint Petersburg** from 1998 to 2016.
+- Insights Gained: This helped in identifying if consumption was stable, increasing, or fluctuating, which would influence how "similar" other regions should be to it.
+- Why it matters: If **Saint Petersburg** has a consistent or upward trend, we would want to find regions with similar long-term patterns.
 
+**2. Regional wine consumption overview**.
+- Purpose: To get a snapshot of which regions generally consume more or less wine on average.
+- Action: The mean per capita wine consumption was calculated for each region across all available years.
+- Visualization: A ranked table was used to compare regions based on these averages.
+- Insights Gained: This showed which regions might be candidates for the promotion at a high level, before deeper analysis.
 
+**3. Identified outliers**.
+- Purpose: Outliers can distort analysis.
+- Action: Used box plot to detect regions with irregular consumption (e.g., sudden spikes/drops).
+- Insights Gained: Identified any regions with abnormal behavior that may not be suitable for comparison with **Saint Petersburg**.
 
+**4. Standardized consumption values**.
+- Purpose: Since different regions have different base levels of consumption, standardizing (e.g., using z-scores) helps compare them fairly.
+- Action: Transformed the wine consumption data so each region’s values could be compared on a similar scale.
+- Why it matters: This prepared the data for similarity analysis by reducing bias due to raw scale differences.
 
