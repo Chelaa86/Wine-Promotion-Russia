@@ -9,10 +9,11 @@
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 - [References](#references)
+
 ## Project Overview
 ### Background
 Your company owns a chain of stores across Russia that sell a variety of alcoholic drinks. The company recently ran a wine promotion in Saint Petersburg that was very successful. Due to the cost to the business, it isn’t possible to run the promotion in all regions. The marketing team would like to target 10 other regions that have similar buying habits to Saint Petersburg where they would expect the promotion to be similarly successful.
-
+![Excel_2](https://github.com/user-attachments/assets/bcddde8f-b03b-4e03-bc5c-54eb24882844)
 ## Data Sources
 The marketing team has sourced you with historical sales volumes per capita for several different drinks types.
  - "year": year (1998-2016)
